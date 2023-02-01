@@ -7,9 +7,8 @@ thetaNew = theta * (math.pi/180)
 g = 9.81
 v = float(input("Please input the initial velocity (m/s): "))
 
-print(y + (x*(math.tan(thetaNew))) - ((g*(x**2)) / (2*(v*((math.cos(thetaNew))**2)))))
+denominator = 2*(v*math.cos(thetaNew))**2
+numerator = g*(x**2)
+mini_result = numerator/denominator
 
-x = float(input("Please enter a value: "))
-y = float(input("Please enter a value: "))
-
-print(x+y)
+print(y + x*(math.tan(thetaNew)) - mini_result)
