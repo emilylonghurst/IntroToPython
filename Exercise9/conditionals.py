@@ -122,5 +122,10 @@
 #########################################################
 
 my_list = ['chocolate', 'tea', 'scones']
+for e in my_list:
+    print(e)
+
+
+my_list = ['chocolate', 'tea', 'scones']
 for pos, e in enumerate(my_list):
     print(e + " is on position " + str(pos))
