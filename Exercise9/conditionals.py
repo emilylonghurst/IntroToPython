@@ -134,5 +134,49 @@
 
 # range(start,stop, stepSize*) => start, start+stepSize, start+stepSize, start+stepSize, ... stop-1
 
-for i in range(0,5,2):
-    print(i)
+# for i in range(0,5,2):
+#     print(i)
+
+##########################################################
+
+# # your loop can have an else part
+#
+# for i in range(0,3):
+#     print(i)
+# else:
+#     # this will not run if the loop stops unnaturally i.e. from a break
+#     # only run when the loop is exhausted, it stops naturally
+#     print("I'm done")
+
+############################################################
+#
+# num = input("type in a number")
+# while not num.isdecimal():
+#     print("That's not a number!!")
+#     num = input("type in a decimal")
+# else:
+#     num_int = int(num)
+#
+# ###########################################################
+#
+# a = int(input("Type in first number"))
+# b = int(input("Type in second number"))
+# max_num = 0
+#
+# if a > b:
+#     max_num = a
+# else:
+#     max_num = b
+#
+# print(max_num)
+#
+#
+# # The above can be condensed into one expression:
+#
+# max_num = a if a > b else b
+#
+# print(max_num)
+#
+# # has to have the else part to work
+#
+# ##########################################################
