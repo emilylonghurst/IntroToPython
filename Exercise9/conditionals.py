@@ -121,11 +121,18 @@
 #
 #########################################################
 
-my_list = ['chocolate', 'tea', 'scones']
-for e in my_list:
-    print(e)
+# my_list = ['chocolate', 'tea', 'scones']
+# for e in my_list:
+#     print(e)
+#
+#
+# my_list = ['chocolate', 'tea', 'scones']
+# for pos, e in enumerate(my_list):
+#     print(e + " is on position " + str(pos))
 
+########################################################
 
-my_list = ['chocolate', 'tea', 'scones']
-for pos, e in enumerate(my_list):
-    print(e + " is on position " + str(pos))
+# range(start,stop, stepSize*) => start, start+stepSize, start+stepSize, start+stepSize, ... stop-1
+
+for i in range(0,5,2):
+    print(i)
