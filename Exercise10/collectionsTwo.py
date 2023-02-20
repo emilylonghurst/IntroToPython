@@ -244,6 +244,9 @@
 # my_set.add(-4)
 # print(my_set)
 
+# # create an empty set
+# my_set = set()
+
 #####################################################################################
 
 # # Using Sets to remove items from Lists
