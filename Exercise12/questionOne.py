@@ -9,6 +9,7 @@ cheese += ['Oke']
 
 # # Or using append
 # cheese.append('Oke')
+# cheese.extend(['Red Leicester'])
 
 cheese += ['Oke', 'Parmesan']
 

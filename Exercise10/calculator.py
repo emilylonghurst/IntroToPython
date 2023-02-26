@@ -3,7 +3,9 @@
 print("This program will calculate an operation of your choosing when given two numbers.")
 
 # while loop keeps the program running unless the user enters q when prompted for first_number
+# make it separate loop(s), only put things that need repeating into the loops
 
+# ask for first_number first, then do while if first_number is not q
 while True:
     first_number = input("Please enter your first number (or type q to quit): ")
 
