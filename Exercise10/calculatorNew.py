@@ -47,6 +47,3 @@ while first_number != "q":
     calc()
 
 
-
-
-
