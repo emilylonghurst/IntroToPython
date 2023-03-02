@@ -1,4 +1,4 @@
-###### FUNCTIOHNS #############################################################
+## FUNCTIONS
 #
 # # Use verbs at the beginning of functions to make variable naming easier
 # def get_user_input():
