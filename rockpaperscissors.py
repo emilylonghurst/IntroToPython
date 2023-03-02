@@ -51,8 +51,8 @@ def whoWins(human, computer):
     elif human == "Scissors" and computer == "Paper":
         print("You win!")
 
-for counter in entries:
-    humanChoice = input("Enter a value of R, P or S: ")
+
+humanChoice = input("Enter a value of R, P or S: ")
 humanDraw = convert(humanChoice)
 
 computerChoice = random.randint(0, 2)
