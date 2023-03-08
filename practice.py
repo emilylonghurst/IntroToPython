@@ -84,11 +84,35 @@
 
 ######################################################################
 
-def find_it(seq):
-    for i in seq:
-        if seq.count(i) % 2 != 0:
-            return i
+# def find_it(seq):
+#     for i in seq:
+#         if seq.count(i) % 2 != 0:
+#             return i
+#
+#
+# result = find_it([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5])
+# print(result)
+
+############################################################################
+
+# # Find shortest word in a string
+#
+# # converted to list, split the list and mapped it by length.
+# def find_short(s):
+#     shortList = s.split(' ')
+#     l = len(min(shortList, key=len))
+#     return l
+#
+#
+# s = 'Ifhdsjfs fdsfsdf sfgfff sfs'
+# result = find_short(s)
+# print(result)
+#
+# # shorter method
+#
+# def find_short(s):
+#     return min(len(x) for x in s.split())
+
+############################################################################
 
 
-result = find_it([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5])
-print(result)
