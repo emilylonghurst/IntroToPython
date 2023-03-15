@@ -11,7 +11,7 @@ def main():
                         "\n3. Delete account \n4. Deposit \n5. Withdraw \n6. Check balance \n7. Quit \n")
 
     while bank_script != '7':
-
+        # Create account
         if bank_script == '1':
             user_name = input("Please enter your name: ")
             user_pin = input("Please enter your 4-digit pin: ")
@@ -24,6 +24,7 @@ def main():
             print(new_dict[account_id].get_balance())
             print(user_account.get_balance())
 
+        # Modify account
         if bank_script == '2':
             acc_num_check = int(input("Please enter your account number: "))
             while acc_num_check not in new_dict:
@@ -51,6 +52,7 @@ def main():
             else:
                 print("The police are on their way :)")
 
+        # Delete account
         if bank_script == '3':
             acc_num_check = int(input("Please enter your account number: "))
             while acc_num_check not in new_dict:
@@ -62,6 +64,7 @@ def main():
                 del new_dict[acc_num_check]
                 print("Account " + str() + " deleted")
 
+        # Deposit
         if bank_script == '4':
             acc_num_check = int(input("Please enter your account number: "))
             while acc_num_check not in new_dict:
@@ -81,6 +84,7 @@ def main():
                 print("The police are on their way :)")
                 break
 
+        # Withdraw
         if bank_script == '5':
             acc_num_check = int(input("Please enter your account number: "))
             while acc_num_check not in new_dict:
@@ -100,6 +104,7 @@ def main():
                 print("The police are on their way :)")
                 break
 
+        # Check balance
         if bank_script == '6':
             acc_num_check = int(input("Please enter your account number: "))
             while acc_num_check not in new_dict:
