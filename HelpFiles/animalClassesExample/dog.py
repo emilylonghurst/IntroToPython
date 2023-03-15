@@ -7,6 +7,7 @@ class Dog(Animal):
     def __init__(self, dog_name, dog_colour):
         super().__init__(dog_name)
         super().__init__(dog_colour)
+        print(super())
         # self._name = dog_name
 
     def bark(self):
